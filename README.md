@@ -11,7 +11,7 @@ skills/              ← skill 真身(每个子目录一个,含 SKILL.md)
   android-dev-guide/   Android/Kotlin 开发指南
   vue3-dev-guide/      Vue 3 开发指南
   hard-bug-diagnosis/  疑难缺陷诊断方法论
-  ruankao-designer/    软考软件设计师备考:讲考点、出题刷题、复习计划
+  cs-fundamentals/     计算机基础与软件工程知识库(源自软设考纲,7 个领域参考)
 config/              ← 各 skill 的敏感配置(gitignore,不入库;本机路径 ~/.config/* 软链接至此)
 reports/             ← 生成的报告(gitignore)
 ```
