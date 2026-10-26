@@ -1,0 +1,4 @@
+interface:
+  display_name: "Vue 3 开发指南"
+  short_description: "开发和维护 Vue 3 页面、组件及工程功能"
+  default_prompt: "使用 $vue3-dev-guide 按当前项目规范完成这个 Vue 3 开发任务。"
