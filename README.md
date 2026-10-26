@@ -1,4 +1,4 @@
-# qwzSkills · aiFlow
+# qwzAiFlow
 
 个人 AI 工作流资产库:跨设备、跨 AI 工具(Codex / Claude Code / Cursor / ZCode / Gemini CLI / Trae …)复用的 skill 与全局约定,**真身只有这一份**,各工具目录里都是软链接。
 
@@ -26,7 +26,7 @@ reports/             ← 生成的报告(gitignore)
 ## 换机恢复
 
 ```bash
-git clone https://github.com/quwanzhong/qwzSkills ~/aiFlow
+git clone https://github.com/quwanzhong/qwzAiFlow ~/aiFlow
 # 1. 按各 skill 的 SKILL.md 重建 config/(含 token,勿提交)
 # 2. 为每个工具重建软链接(见 AGENTS.md)
 ```
