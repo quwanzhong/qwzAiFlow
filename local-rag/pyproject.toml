@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aiflow-local-rag"
+version = "0.1.0"
+description = "本地 SQLite + sqlite-vec 问答缓存，使用远端局域网 Ollama 模型兜底"
+requires-python = ">=3.10"
+dependencies = ["sqlite-vec>=0.1.6,<0.2"]
+
+[project.scripts]
+local-rag = "local_rag.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["local_rag*"]
