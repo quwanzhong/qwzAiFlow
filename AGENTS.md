@@ -105,6 +105,14 @@ Vue 3 的最佳实践并遵循项目现有约定;项目实际使用的 Vue 版�
 时间范围换算、报告模板、写作规则以 SKILL.md 为准。报 401 = token 失效,
 让用户去 GitLab 重新生成并更新 `~/aiFlow/config/work-report/config.json`。
 
+### ruankao-cs-fundamentals(软考系·计算机基础与软件工程知识库)
+
+用户的问题涉及计算机基础或软件工程概念时(数据结构/算法/操作系统/组成原理/
+数据库/网络/安全/软件工程/UML/设计模式/SOLID 等,**不要求用户点名主题**):
+**先读 `~/aiFlow/skills/ruankao-cs-fundamentals/SKILL.md`**,按其路由表读
+`references/` 里对应领域的文件后再回答 —— 里面有公式、速查表与易错点。
+以后新增软考相关知识库一律用 `ruankao-` 前缀,保持列表聚合。
+
 ## 接入新 AI 工具的方式
 
 每个工具只需要一行接入,不要复制文件:
